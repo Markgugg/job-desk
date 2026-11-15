@@ -1,0 +1,18 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local state. Everything the server writes lives in data/; only the demo seed is tracked.
+data/*
+!data/seed/
+!data/.gitkeep
+
+# Personal files
+profile/*.json
+!profile/*.example.json
+resumes/
+.env
+.env.*
+logs/
+*.log
+.DS_Store
